@@ -1,0 +1,34 @@
+.sidebar {
+    height: 100%;
+    align-self: flex-start;
+    width: 30%;
+    border-right: lightgrey 5px solid;
+    border-bottom: lightgrey 5px solid;
+}
+
+.add-folder,
+.add-note {
+    width: 90%;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    margin: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.add-folder-form,
+.add-note-form {
+    margin: 10px;
+    height: 35px;
+    font-size: 1em;
+    padding: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

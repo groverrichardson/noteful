@@ -1,0 +1,30 @@
+.note-preview {
+    border: lightgrey 5px solid;
+    padding: 10px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.notelist {
+    width: 100%;
+}
+
+.note-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.delete-button {
+    min-width: 110px;
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    margin: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

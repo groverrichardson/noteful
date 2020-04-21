@@ -1,0 +1,13 @@
+.App {
+    margin: 50px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    max-width: 98vw;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid lightgrey;
+    height: fit-content;
+}

@@ -1,0 +1,8 @@
+.folder {
+    padding: 5px;
+    border-bottom: lightgrey 5px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
